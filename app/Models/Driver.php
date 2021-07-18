@@ -67,7 +67,7 @@ class Driver extends Model
      */
     public static $rules = [
         'name' => 'required',
-        'email' => 'required unique',
+        'email' => 'required',
         'vehicle_no' => 'required',
         'vehicle_type' => 'required'
     ];

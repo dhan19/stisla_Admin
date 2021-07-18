@@ -11,10 +11,10 @@
 </div>
 
 <!-- Password Field -->
-<div class="form-group">
+<!-- <div class="form-group">
     {!! Form::label('password', 'Password:') !!}
     <p>{{ $userDetail->password }}</p>
-</div>
+</div> -->
 
 <!-- Gender Field -->
 <div class="form-group">

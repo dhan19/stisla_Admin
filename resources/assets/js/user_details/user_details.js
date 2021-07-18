@@ -28,7 +28,7 @@ $(tableName).DataTable({
             name: 'email'
         },{
             data: 'password',
-            name: 'password'
+            name: 'passwordd'
         },{
             data: 'gender',
             name: 'gender'

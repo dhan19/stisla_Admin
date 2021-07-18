@@ -8,9 +8,9 @@
 @section('content')
     <section class="section">
         <div class="section-header">
-            <h1>User Details</h1>
+            <h1>All Users</h1>
             <div class="section-header-breadcrumb">
-                <a href="{{ route('userDetails.create')}}" class="btn btn-primary form-btn">User Detail <i class="fas fa-plus"></i></a>
+                <a href="{{ route('userDetails.create')}}" class="btn btn-primary form-btn">Add User <i class="fas fa-plus"></i></a>
             </div>
         </div>
         <div class="section-body">

@@ -61,10 +61,10 @@ class UserDetail extends Model
      */
     public static $rules = [
         'name' => 'required',
-        'email' => 'required unique',
+        'email' => 'required',
         'password' => 'required',
         'gender' => 'required',
-        'phone_no' => 'required number'
+        'phone_no' => 'required'
     ];
 
     
